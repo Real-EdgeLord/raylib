@@ -1,14 +1,15 @@
 cmake_minimum_required(VERSION 3.10)
-project(raylib_project C)
+project(raylibTest)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Tell CMake where raylib headers and libs are
 include_directories(${CMAKE_SOURCE_DIR}/include)
 link_directories(${CMAKE_SOURCE_DIR}/lib)
 
 # Collect source files
-file(GLOB SOURCES "src/*.c")
+file(GLOB SOURCES "src/*.cpp")
 
 # Build the executable
 add_executable(${PROJECT_NAME} ${SOURCES})

@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named raylib_project
+# Target rules for targets named raylibTest
 
 # Build rule for target.
-raylib_project: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 raylib_project
-.PHONY : raylib_project
+raylibTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 raylibTest
+.PHONY : raylibTest
 
 # fast build rule for target.
-raylib_project/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_project.dir/build.make CMakeFiles/raylib_project.dir/build
-.PHONY : raylib_project/fast
+raylibTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylibTest.dir/build.make CMakeFiles/raylibTest.dir/build
+.PHONY : raylibTest/fast
 
-src/main.o: src/main.c.o
+src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
-src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_project.dir/build.make CMakeFiles/raylib_project.dir/src/main.c.o
-.PHONY : src/main.c.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylibTest.dir/build.make CMakeFiles/raylibTest.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-src/main.i: src/main.c.i
+src/main.i: src/main.cpp.i
 .PHONY : src/main.i
 
 # target to preprocess a source file
-src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_project.dir/build.make CMakeFiles/raylib_project.dir/src/main.c.i
-.PHONY : src/main.c.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylibTest.dir/build.make CMakeFiles/raylibTest.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/main.s: src/main.c.s
+src/main.s: src/main.cpp.s
 .PHONY : src/main.s
 
 # target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylib_project.dir/build.make CMakeFiles/raylib_project.dir/src/main.c.s
-.PHONY : src/main.c.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raylibTest.dir/build.make CMakeFiles/raylibTest.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... raylib_project"
+	@echo "... raylibTest"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

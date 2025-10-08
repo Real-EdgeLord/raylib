@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/myprojectname.dir/src/main.cpp.o -o myprojectname   -L/home/edge/Desktop/raylib/lib  -Wl,-rpath,/home/edge/Desktop/raylib/lib -lraylib -lm -ldl -lpthread 

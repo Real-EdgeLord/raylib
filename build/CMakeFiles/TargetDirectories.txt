@@ -1,3 +1,3 @@
-/home/edge/Desktop/raylib/build/CMakeFiles/raylib_project.dir
+/home/edge/Desktop/raylib/build/CMakeFiles/raylibTest.dir
 /home/edge/Desktop/raylib/build/CMakeFiles/edit_cache.dir
 /home/edge/Desktop/raylib/build/CMakeFiles/rebuild_cache.dir

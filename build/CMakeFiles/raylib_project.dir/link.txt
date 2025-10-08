@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/raylib_project.dir/src/main.c.o -o raylib_project   -L/home/edge/Desktop/raylib/lib  -Wl,-rpath,/home/edge/Desktop/raylib/lib -lraylib -lm -ldl -lpthread 
+/usr/bin/g++ -g CMakeFiles/raylib_project.dir/src/main.cpp.o -o raylib_project   -L/home/edge/Desktop/raylib/lib  -Wl,-rpath,/home/edge/Desktop/raylib/lib -lraylib -lm -ldl -lpthread 

@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/edge/Desktop/raylib/build",
-  "command": "/usr/bin/gcc  -I/home/edge/Desktop/raylib/include -g -std=gnu99 -o CMakeFiles/raylib_project.dir/src/main.c.o -c /home/edge/Desktop/raylib/src/main.c",
-  "file": "/home/edge/Desktop/raylib/src/main.c",
-  "output": "CMakeFiles/raylib_project.dir/src/main.c.o"
+  "command": "/usr/bin/g++  -I/home/edge/Desktop/raylib/include -g -std=gnu++17 -o CMakeFiles/raylibTest.dir/src/main.cpp.o -c /home/edge/Desktop/raylib/src/main.cpp",
+  "file": "/home/edge/Desktop/raylib/src/main.cpp",
+  "output": "CMakeFiles/raylibTest.dir/src/main.cpp.o"
 }
 ]
