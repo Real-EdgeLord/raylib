@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20251008-1136-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.31.9"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="Gothom"
+	OSRelease="6.8.0-85-generic"
+	OSVersion="#85-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 18 15:26:59 UTC 2025"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ModelName="12th Gen Intel(R) Core(TM) i7-12700H"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15649"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="399.39"
+	>
+	<Testing>
+		<StartDateTime>Oct 08 13:40 EET</StartDateTime>
+		<StartTestTime>1759923623</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 08 13:40 EET</EndDateTime>
+		<EndTestTime>1759923623</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

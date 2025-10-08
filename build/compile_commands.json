@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/edge/Desktop/raylib/build",
+  "command": "/usr/bin/gcc -I/home/edge/Desktop/raylib/include -O2 -g -DNDEBUG -std=gnu99 -o CMakeFiles/raylib_project.dir/src/main.c.o -c /home/edge/Desktop/raylib/src/main.c",
+  "file": "/home/edge/Desktop/raylib/src/main.c",
+  "output": "CMakeFiles/raylib_project.dir/src/main.c.o"
+}
+]
