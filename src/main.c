@@ -5,7 +5,7 @@ int main(void) {
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-        DrawText("Hello, Raylib! NONONONONO ", 350, 280, 20, DARKGRAY);
+        DrawText("Hello, Raylib! who is main ", 350, 280, 20, DARKGRAY);
         EndDrawing();
     }
     CloseWindow();
