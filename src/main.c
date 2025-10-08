@@ -5,7 +5,7 @@ int main(void) {
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-        DrawText("Hello, Raylib! who isdd main ", 350, 280, 20, DARKGRAY);
+        DrawText("Hello, Raylib! this should push to all github and gitlab same time ", 350, 280, 20, DARKGRAY);
         EndDrawing();
     }
     CloseWindow();
